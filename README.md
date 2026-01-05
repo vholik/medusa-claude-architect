@@ -10,6 +10,9 @@ A Claude Code plugin for building Medusa.js e-commerce applications with expert 
 
 # Install the plugin
 /plugin install medusa-architect@medusa-architect
+
+# Fetch the latest Medusa.js codebase for context-aware assistance
+/medusa-architect:install
 ```
 
 ## Available Skills
