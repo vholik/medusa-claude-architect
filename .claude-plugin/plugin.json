@@ -1,0 +1,12 @@
+{
+  "name": "medusa-architect",
+  "description": "Plugin to help projects with Medusa.js",
+  "version": "1.0.0",
+  "author": {
+    "name": "Viktor Holik"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vholik/medusa-claude-architect.git"
+  }
+}
