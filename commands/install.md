@@ -15,18 +15,12 @@ Use this when you need to:
 
 ## Task
 
-1. Create `./.medusa` folder if folder does not exist.
-
-2. Go to `./.medusa`
+1. Execute the following command to add repo
 
 ```bash
-cd .medusa
-```
-
-3. Execute the following command to add repo
-
-```bash
-git subtree add --prefix medusa-repo https://github.com/medusajs/medusa.git develop --squash
+git subtree add --prefix .medusa-repo https://github.com/medusajs/medusa.git develop --squash
 ```
 
 Command will fetch the latest Medusa repository and add them into the local subtree.
+
+2. Add `.medusa-repo` to .gitignore
