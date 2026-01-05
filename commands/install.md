@@ -17,7 +17,9 @@ Use this when you need to:
 
 ## Task
 
-Execute the following git subtree pull commands:
+1. Create `~/.medusa-agents` folder if not exist.
+
+2. Execute the following git subtree pull command inside `~/.medusa-agents` directory:
 
 ```bash
   git subtree pull --prefix resources/medusa https://github.com/medusajs/medusa.git main
