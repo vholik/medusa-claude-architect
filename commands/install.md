@@ -22,7 +22,7 @@ Use this when you need to:
 2. Execute the following git subtree pull command inside `~/.medusa-agents` directory:
 
 ```bash
-  git subtree pull --prefix medusa https://github.com/medusajs/medusa.git main
+  git subtree pull --prefix medusa https://github.com/medusajs/medusa.git develop
 ```
 
 Command will fetch the latest changes from the upstream repository and merge them into the local subtree. There should be no conflicts, if there are ask the user what they want to do.
