@@ -1,0 +1,19 @@
+{
+  "name": "medusa-architect",
+  "owner": {
+    "name": "Viktor Holik",
+    "url": "https://github.com/vholik/medusa-claude-architect"
+  },
+  "plugins": [
+    {
+      "name": "medusa-architect",
+      "description": "Plugin to help projects with Medusa.js",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Viktor Holik"
+      },
+      "license": "MIT"
+    }
+  ]
+}
